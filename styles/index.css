@@ -1,0 +1,17 @@
+@import url("./reset.min.css");
+@import url("./variables.css");
+@import url("./preview-card.css");
+
+html {
+  background-color: var(--light-gray);
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+  min-width: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 22px;
+}
